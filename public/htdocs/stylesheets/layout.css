@@ -17,6 +17,10 @@
 /* #Site Styles
 ================================================== */
 
+h1 span { display:none; }
+h1 { display:block; height: 60px; background-image: url(../images/objectory.png); background-size: 200px; background-repeat:no-repeat; }
+
+
 /* #Page Styles
 ================================================== */
 
