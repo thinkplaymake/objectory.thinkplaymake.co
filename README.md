@@ -21,7 +21,7 @@ Installing
 7. You should now be able to POST data to http://yourlocalcopy.of.objectory/api/v1/ to create an object
 
 
-API Docs (accurate to ff62b42):
+API Docs:
 ============
 
 All API calls are POST or GET to /api/v1/...

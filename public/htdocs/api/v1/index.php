@@ -16,7 +16,7 @@
 	
 	if ($request_type == 'post' && $request_method == 'objectory_object_create') {
 		
-		if (isset($_POST['description']) && isset($_POST['type'])) {
+		if (isset($_POST['description']) && $_POST['description'] && isset($_POST['type']) && $_POST['type']) {
 			
 			// create basic object
 			$objectory_object = new stdClass;

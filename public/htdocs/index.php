@@ -60,6 +60,10 @@
 				we're building the platform as we go, adding new functionality to react to our needs, with the aim of eventually converting the disposable memory project to use objectory, as well as allowing other developers and users to create their own similar projects.
 			</p>
 			<p>
+				we're planning on building this quickly, which means the code will be scrappy and hacked. We always welcome input at every level, including coding techniques, scalability, testing. we're not coders, but create things with code, so our work isn't always elegant under the hood.
+			</p>
+			
+			<p>
 				the code will be available at all times via <a href="https://github.com/thinkplaymake/objectory.thinkplaymake.co">github</a>, and we'll be taking public feedback on board always. to keep posted, subscribe to the newsletter.
 			</p>
 			
@@ -82,23 +86,7 @@
 		
 		
 		<div class="one-third column">
-			<h3>Keep up to date</h3>
-			<form action="https://tinyletter.com/thinkplaymake" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/thinkplaymake', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
-			
-			<h5>API Docs:</h5>
-			<p>
-				You'll be able to access the API documentation here as the code is built.
-			</p>
-			
-			<h5>Project Status:</h5>
-			<ul>
-				<li>July 18: Project added to <a href="https://github.com/thinkplaymake/objectory.thinkplaymake.co">github</a>.</li>
-				<li>July 12: Project Site Launched.</li>
-			</ul>
-			
-			<h5>Credits:</h5>
-			<p>From the <a href="http://webponce.com">people</a> behind <a href="http://disposablememoryproject.org/">this</a> and <a href="http://the100.thinkplaymake.co">this</a></p>
-			
+			<?php require_once('_public_sidebar.php'); ?>
 		</div>
 		
 		
