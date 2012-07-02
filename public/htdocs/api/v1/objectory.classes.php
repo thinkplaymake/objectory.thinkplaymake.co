@@ -37,6 +37,7 @@
 			$response->type = $this->getType();
 			$response->message = $this->getMessage();
 			$response->payload = $this->getPayload();
+			$response->hal_says = 'Dave, this conversation can serve no purpose anymore. Goodbye.';
 			print json_encode( $response );
 			exit();
 		}
