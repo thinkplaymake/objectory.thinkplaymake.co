@@ -16,14 +16,15 @@
 	
 	if ($request_type == 'post' && $request_method == 'objectory_object_create') {
 		
-		if (isset($_POST['description'])) {
-			
-			
+		if (isset($_POST['description']) && isset($_POST['type'])) {
 			
 			// create basic object
 			$objectory_object = new stdClass;
 			$objectory_object->description = strip_tags( $_POST['description'] );
+			$objectory_object->type = strip_tags( $_POST['type'] );
+			
 			$objectory_object->timestamp = date('r');
+			$objectory_object->author = $_SERVER['REMOTE_ADDR'];
 			$objectory_object->testdata = OBJECTORY_TESTDATAFLAG;
 			
 			
@@ -48,7 +49,7 @@
 			
 			
 		} else {
-			new objectory_api_error( 'Failed to create new objectory object, as there was no description' );
+			new objectory_api_error( 'Failed to create new objectory object, as there was missing data' );
 			
 		
 		}

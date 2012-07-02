@@ -21,13 +21,20 @@ Installing
 7. You should now be able to POST data to http://yourlocalcopy.of.objectory/api/v1/ to create an object
 
 
-API Docs
+API Docs (accurate to ff62b42):
 ============
 
-Coming Soon, once an API method is properly exposed and ready for data!
+All API calls are POST or GET to /api/v1/...
+
+POST to / - Creates a new Objectory Object
+			Requires: description (string) - briefly describe the object, ie. a unique identifier or book name / author
+					  type (objectory_object_type: book,camera,toy,person,story,other)
 
 
 Random/Todo
 ============
-- Add 'test' flag to all object creation for removing test data from db
 - Filebased/CDN Caching for objects and stories
+- Filter on object types
+- Add support for groupings of objects and custom names
+- Add support for custom meta against objects
+- Add support for automatic story creation on object creation, along with location data
