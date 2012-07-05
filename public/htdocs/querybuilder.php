@@ -54,10 +54,18 @@
 		<div class="nine columns">
 			
 			<h4>Objectory Object > Create</h4>
+			
+			
+			
+			
 			<form action="api/v1/" method="POST" target="response">
+				<label for="description">API Key:</label> 
+				<input name="api_key" value="test" />
+			
 				<label for="description">Description:</label> 
 				<input name="description" value=""/ >
 				
+			
 				<label for="type">Type:</label> 
 				<select name="type">
 					<option></option>
