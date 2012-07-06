@@ -80,6 +80,20 @@
 				
 			</form>
 			
+			<h4>Objectory Story > Create</h4>
+			
+			
+			
+			
+			<form action="api/v1/object/4ff46c588019cc280d000009" method="POST" target="response">
+				<label for="description">API Key:</label> 
+				<input name="api_key" value="test" />
+				
+				<input type="submit">
+				
+			</form>
+			
+			
 			
 		</div>
 		

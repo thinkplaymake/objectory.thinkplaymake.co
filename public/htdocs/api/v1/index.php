@@ -25,19 +25,18 @@
 	}
 	
 	
-	
 	// Run API
 	
 	
 	// GET / = GET_OBJECTS_LIST
-	if ($request_type == 'get' && $request_method == 'objects') {
-		$objectory->get_objects();
+	if ($request_type == 'get' && $request_method == 'objectory') {
+		$objectory->get_objectory();
 	}
 	
 	
 	// POST / = POST_OBJECT_CREATE
-	if ($request_type == 'post' && $request_method == 'objects') {
-		$objectory->post_objects( $_POST );
+	if ($request_type == 'post' && $request_method == 'objectory') {
+		$objectory->post_objectory( $_POST );
 	}
 	
 	// GET /object/ABC = GET OBJECT
@@ -45,6 +44,13 @@
 		$objectory->get_object( $_GET['id'] );
 	}
 	
+	// POST /object/ABC = POST STORY
+	if ($request_type == 'post' && $request_method == 'object') {
+		$objectory->post_story( $_POST );
+		
+	}
+	
+	print $request_method;
 	
 	
 	// end
