@@ -8,7 +8,7 @@
 			
 			<h5>Project Status:</h5>
 			<ul>
-				<li>July 2: Basic Objectory Object Create API call added, along with <a href="querybuilder.php">API test page</a>.</li>
+				<li>July 2: Basic Objectory Object Create API call added, along with <a href="/api/v1/querybuilder.php">API test page</a>.</li>
 				<li>June 18: Project added to <a href="https://github.com/thinkplaymake/objectory.thinkplaymake.co">github</a>.</li>
 				<li>June 12: Project Site Launched.</li>
 			</ul>

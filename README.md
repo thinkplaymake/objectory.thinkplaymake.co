@@ -38,3 +38,5 @@ Random/Todo
 - Add support for groupings of objects and custom names
 - Add support for custom meta against objects
 - Add support for automatic story creation on object creation, along with location data
+- Add filters for GETs to hide private information
+- Add public/private keys for 'finding' object support
